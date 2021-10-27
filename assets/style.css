@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./Img/background.jpeg");
+    background-image: url("./Img/background.jpeg") linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
