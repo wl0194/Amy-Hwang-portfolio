@@ -5,36 +5,29 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
+    background-color: #dee2d6;
 }
-.hero {
-    background-image: url("./Img/background.jpeg") linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    opacity: 0.88;
-}
+
 .navbar {
+    opacity: 0.6;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2rem;
     padding: 20px 0;
 }
-.nav {
-    color: #FFF;
-    padding-left: 20px;
-}
-.nav:hover {
-    color:crimson;
-}
-/* * {
-    box-sizing: border-box;
-    padding: 0;
+.container {
     margin: 0;
-} */
-
+}
+.container h1 {
+    position: absolute;
+    top: 40%;
+    color: rgb(75, 75, 75);
+    font-size: 50px;
+}
+#footer {
+   
+}
 /* body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
