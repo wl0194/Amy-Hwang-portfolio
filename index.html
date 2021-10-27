@@ -2,31 +2,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amy Hwang's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <link rel="shortcut icon" href="assets/Img/peach.png" />
-
+    <title>Amy's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    
 </head>
 
 <body>
-
-    <section id="header">
-        <nav>
-
-            <a href="#" class="logo">
-                <img src="assets/Img/peach.png" alt="Peach" />
-            </a>
-            <ul class="menu">
-                <li><a href="#About Me">About Me</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
+    <div class="hero">
+        <!-- <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:#dee2d6"> -->
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="assets/Img/background image.jpeg" class="img-fluid">
+                </div>
+            </div>
         </nav>
-    </section>
-    <main class="page-wrapper">
+        <!-- <div>
+            <img src="assets/Img/background image.jpeg" class="img-fluid">
+        </div> -->
+    </div>
+
+    <!-- <main class="page-wrapper">
         <section id="About Me" class="content">
 
             <div class="myself">
@@ -91,13 +110,15 @@
             </address>
             </div>
         </section>
-    </main>
+    </main> -->
+
     <section id="footer">
         <footer>
             <p>Copyright 2021</p>
         </footer>
     </section>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 

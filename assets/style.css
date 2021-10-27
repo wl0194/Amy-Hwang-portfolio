@@ -1,13 +1,43 @@
-* {
-    box-sizing: border-box;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./Img/background\ image.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.88;
+}
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 20px 0;
+}
+.nav {
+    color: #FFF;
+    padding-left: 20px;
+}
+.nav:hover {
+    color:crimson;
+}
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+/* body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
-    color: indianred;
     background-color: #FFF;
     scroll-behavior: smooth;
     line-height: 1.5;
@@ -46,7 +76,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgb(102, 97, 101);
+    background-color: #FCB07E;
 }
 
 .logo {
@@ -68,16 +98,14 @@ nav ul {
 }
 
 nav ul li a {
-    height: 40px;
-    line-height: 43px;
     margin: 3px;
     padding: 0px 22px;
     display: flex;
-    font-size: 0.9rem;
+    justify-content: space-around;
+    font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 500;
     color: #ffffff;
-    letter-spacing: 1px;
 }
 
 nav ul li a:hover {
@@ -288,7 +316,7 @@ footer p {
 
 /* Large smartphones - navbar changes color */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .flex-item,
     .flex-item:first-child {
         flex-basis: 100%;
@@ -304,4 +332,4 @@ footer p {
         flex-direction: column;
         align-items: flex-start;
     }
-}
+} */ 
