@@ -26,14 +26,19 @@ body {
     height: 90vh;
     align-items: center;
 }
-/* .container-about {
-    /* padding: 50px; */
-    text-align: center;
-}
-.about h3 {
-    font-size: 40px;
-} */
 
+#about h3 {
+    font-size: 40px;
+} 
+
+.row p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#work {
+    padding: 100px;
+}
 /* body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
