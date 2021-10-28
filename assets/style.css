@@ -16,18 +16,16 @@ body {
     letter-spacing: 0.2rem;
     padding: 20px 0;
 }
-.container {
+.intro {
     margin: 0;
 }
-.container h1 {
+.intro h1 {
     position: absolute;
     top: 40%;
     color: rgb(75, 75, 75);
     font-size: 50px;
 }
-#footer {
-   
-}
+
 /* body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
