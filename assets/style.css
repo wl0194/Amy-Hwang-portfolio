@@ -16,15 +16,23 @@ body {
     letter-spacing: 0.2rem;
     padding: 20px 0;
 }
-.intro {
+/* .intro {
     margin: 0;
-}
+} */
 .intro h1 {
-    position: absolute;
-    top: 40%;
     color: rgb(75, 75, 75);
     font-size: 50px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
 }
+/* .container-about {
+    /* padding: 50px; */
+    text-align: center;
+}
+.about h3 {
+    font-size: 40px;
+} */
 
 /* body {
     font-family: 'Courier New', Courier, monospace;
