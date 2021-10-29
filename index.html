@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div id="home">
     <nav class="navbar navbar-expand-md navbar-light fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -21,18 +22,22 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+</div>
     <div class="intro">
         <h1>Hello, I am Amy Hwang,<br> a front-end developer based in Bluebell, PA.<br>I love creating stuff!</h1>
     </div>
@@ -55,50 +60,79 @@
                     program.</p>
             </div>
         </div>
+    </div>
+    <div id="work" class="container mt-4">
+        <div class="post-heading text-center">
+            <h3 class="display-3 font-weight-bold">Portfolio</h3>
+            <hr class="w-50 mx-auto pb-3">
         </div>
-        <div id="work" class="container mt-4">
-            <div class="post-heading text-center">
-                <h3 class="display-3 font-weight-bold">Portfolio</h3>
-                <hr class="w-50 mx-auto pb-3">
-            </div>
-            
-            <div class="row">
-                <div class="col-lg4 col-12 pb-5">
-                    <div class="card">
-                        <img src="./assets/Img/project.png" class="card-img-top" alt="first project">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <a href="#" class="btn btn-warning">Live Preview</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg4 col-12 pb-5">
-                    <div class="card">
-                        <img src="./assets/Img/codequiz.png" class="card-img-top" alt="codequiz assignment">
-                        <div class="card-body">
-                            <h5 class="card-title">Code Quiz</h5>
-                            <a href="#" class="btn btn-warning">Live Preview</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg4 col-12 pb-5">
-                    <div class="card">
-                        <img src="./assets/Img/scheduler.png" class="card-img-top" alt="workday scheduler assignment">
-                        <div class="card-body">
-                            <h5 class="card-title">Workday Sheduler</h5>
-                            <a href="#" class="btn btn-warning">Live Preview</a>
-                        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto col-12 pb-5">
+                <div class="card">
+                    <img src="./assets/Img/project.png" class="card-img-top" alt="first project">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <a href="#" class="btn btn-warning">Live Preview</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <main class="page-wrapper">
+
+        <div class="row">
+            <div class="col-lg-8 mx-auto col-12 pb-5">
+                <div class="card">
+                    <img src="./assets/Img/codequiz.png" class="card-img-top" alt="codequiz assignment">
+                    <div class="card-body">
+                        <h5 class="card-title">Code Quiz</h5>
+                        <a href="#" class="btn btn-warning">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 mx-auto col-12 pb-5">
+                <div class="card">
+                    <img src="./assets/Img/scheduler.png" class="card-img-top" alt="workday scheduler assignment">
+                    <div class="card-body">
+                        <h5 class="card-title">Workday Sheduler</h5>
+                        <a href="#" class="btn btn-warning">Live Preview</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resume" class="container mt-4">
+        <div class="post-heading text-center">
+            <h3 class="display-3 font-weight-bold">Resume</h3>
+            <hr class="w-50 mx-auto pb-3">
+        </div>
+    </div>
+
+    <div id="contact" class="w-50 mt-5 mx-auto mb-5">
+        <div class="post-heading text-center">
+            <h3 class="display-3 font-weight-bold">Contact</h3>
+            <hr class="w-50 mx-auto pb-3">
+        </div>
+        <form action="/action_page.php">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="text">Message:</label>
+                <textarea class="form-control"></textarea>
+              </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+    </div>
+    <!-- <main class="page-wrapper">
         <section id="About Me" class="content">
 
             <div class="myself">
@@ -164,10 +198,15 @@
             </div>
         </section>
     </main> -->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color:#ebe9e9">
+          © 2021 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">Amy Hwang</a>
+        </div>
+      </footer>
 
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 
