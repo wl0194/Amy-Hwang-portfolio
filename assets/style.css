@@ -37,6 +37,47 @@ body {
 #work {
     padding: 100px;
 }
+
+.social-icon {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 27px;
+    margin-right: 11px;
+    cursor: pointer
+}
+
+
+#contact {
+    background:#e6b89c;
+    font-size: 20px;
+}
+
+#contact a {
+    color: #FFF;
+
+}
+
+#contact a:hover {
+    transition: 0.5s;
+    color: #56738C;
+}
+
+a:link {
+    color: #56738C;
+    text-decoration: none;
+}
+
+a:active {
+    color: #56738C;
+}
+
+a:visited {
+    color: #56738C;
+}
 /* body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
